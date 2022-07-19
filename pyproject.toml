@@ -1,11 +1,8 @@
 [tool.poetry]
 name = "termtyper"
-version = "2.0.0"
 description = "A TUI based typing application"
 authors = ["kraanzu <kraanzu@gmail.com>"]
 license = "MIT"
-
-[tool.poetry.dependencies]
 python = "^3.10"
 textual = "^0.1.15"
 
@@ -16,7 +13,6 @@ flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 termtyper = 'termtyper.__init__:main'
